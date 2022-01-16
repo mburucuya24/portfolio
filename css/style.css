@@ -32,8 +32,7 @@ p {
 }
 
 .body {
-  margin: 100px auto 48px auto;
-  max-width: 800px;
+  margin: 100px auto;
 }
 
 .text-center {
@@ -60,9 +59,17 @@ p {
   color: white;
 }
 
+.contact-link:hover {
+  color: white;
+}
+
 .about-link {
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
+}
+
+.about-link:hover {
+  color: var(--primary-color);
 }
 
 .img-fluid {
@@ -80,6 +87,10 @@ p {
   text-align: center;
 }
 
+.primary-link:hover {
+  color: white;
+}
+
 .homepage-link {
   color: var(--primary-color);
   text-align: center;
@@ -87,7 +98,7 @@ p {
 }
 
 .about-body {
-  margin: 100px auto 0 auto;
+  margin: 100px auto;
 }
 
 .about-paragraphs {
@@ -122,6 +133,7 @@ p {
 
   h1 {
     font-size: 48px;
+    line-height: 1.5;
   }
 
   h2 {
@@ -134,6 +146,6 @@ p {
 
   .primary-link {
     display: block;
-    margin: 0;
+    margin: 0 20px;
   }
 }
